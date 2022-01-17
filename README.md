@@ -103,3 +103,11 @@ destination_branch: "refs/tags/*"
 $ docker run --rm -e "SSH_PRIVATE_KEY=$(cat ~/.ssh/id_rsa)" $(docker build -q .) \
   $SOURCE_REPO $SOURCE_BRANCH $DESTINATION_REPO $DESTINATION_BRANCH
 ```
+
+## Author
+
+[Wei He](https://github.com/wei) _github@weispot.com_
+
+## License
+
+[MIT](https://wei.mit-license.org)
