@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: git-sync
-        uses: wei/git-sync@v3
+        uses: assr-ghactions/git-sync@v3.0.0
         with:
           source_repo: "source_org/repository"
           source_branch: "main"
@@ -107,6 +107,10 @@ $ docker run --rm -e "SSH_PRIVATE_KEY=$(cat ~/.ssh/id_rsa)" $(docker build -q .)
 ## Author
 
 [Wei He](https://github.com/wei) _github@weispot.com_
+
+## Maintainer/User
+
+[Ajay Chinthapalli](https://github.com/ajaychinthapalli) _chinthapalli.ajay@gmail.com_
 
 ## License
 
